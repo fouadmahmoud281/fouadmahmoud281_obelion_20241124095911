@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.task-priority-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.navigation {
+  background-color: #eaeaea;
+  padding: 10px 20px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navigation li {
+  cursor: pointer;
+}
+
+.task-list {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.task-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-name {
+  flex: 2;
+}
+
+.task-due-date {
+  flex: 1;
+  text-align: center;
+}
+
+.priority-dropdown {
+  flex: 1;
+  padding: 5px;
+}
+
+.update-button {
+  flex: 0.5;
+  background-color: #FF6347;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.update-button:hover {
+  background-color: #e5533d;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-top: 1px solid #dddddd;
+}
+
+.footer div {
+  flex: 1;
+  text-align: center;
+}
